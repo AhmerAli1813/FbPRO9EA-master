@@ -131,11 +131,11 @@ class MyTextField extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(10),
       child: TextFormField(
-        validator: (value){
-          if(value!.isEmpty){
-            return "Please Enter a value";
-          }
-        },
+        // validator: (value){
+        //   if(value!.isEmpty){
+        //     return "Please Enter a value";
+        //   }
+        // },
         obscureText: yes,
         controller: controller,
         decoration: InputDecoration(
